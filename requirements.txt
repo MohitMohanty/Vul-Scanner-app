@@ -1,0 +1,2 @@
+reportlab==3.6.12
+schedule==1.2.0

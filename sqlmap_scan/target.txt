@@ -1,0 +1,1 @@
+https://hacktify-credential-conundrum.chals.io/ (GET)  # /usr/bin/sqlmap -u https://hacktify-credential-conundrum.chals.io/ --batch --output-dir=sqlmap_scan

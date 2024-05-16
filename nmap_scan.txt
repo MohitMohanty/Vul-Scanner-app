@@ -1,0 +1,35 @@
+# Nmap 7.94SVN scan initiated Thu May 16 17:44:28 2024 as: nmap -sV -oN nmap_scan.txt 143.244.222.116
+Nmap scan report for 143.244.222.116
+Host is up (0.20s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE        VERSION
+23/tcp   open  telnet?
+80/tcp   open  http           OpenResty web app server 1.19.3.1
+443/tcp  open  ssl/https?
+8443/tcp open  ssl/https-alt?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.94SVN%I=7%D=5/16%Time=6645F8B7%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,6,"Host:\x20")%r(GenericLines,27,"Host:\x20Couldn't\x20find\x20unde
+SF:rlying\x20service\n")%r(tn3270,6,"Host:\x20")%r(GetRequest,27,"Host:\x2
+SF:0Couldn't\x20find\x20underlying\x20service\n")%r(HTTPOptions,27,"Host:\
+SF:x20Couldn't\x20find\x20underlying\x20service\n")%r(RTSPRequest,27,"Host
+SF::\x20Couldn't\x20find\x20underlying\x20service\n")%r(RPCCheck,6,"Host:\
+SF:x20")%r(DNSVersionBindReqTCP,6,"Host:\x20")%r(DNSStatusRequestTCP,6,"Ho
+SF:st:\x20")%r(Help,27,"Host:\x20Couldn't\x20find\x20underlying\x20service
+SF:\n")%r(SSLSessionReq,27,"Host:\x20Couldn't\x20find\x20underlying\x20ser
+SF:vice\n")%r(TerminalServerCookie,27,"Host:\x20Couldn't\x20find\x20underl
+SF:ying\x20service\n")%r(TLSSessionReq,27,"Host:\x20Couldn't\x20find\x20un
+SF:derlying\x20service\n")%r(Kerberos,27,"Host:\x20Couldn't\x20find\x20und
+SF:erlying\x20service\n")%r(SMBProgNeg,6,"Host:\x20")%r(X11Probe,6,"Host:\
+SF:x20")%r(FourOhFourRequest,27,"Host:\x20Couldn't\x20find\x20underlying\x
+SF:20service\n")%r(LPDString,27,"Host:\x20Couldn't\x20find\x20underlying\x
+SF:20service\n")%r(LDAPSearchReq,27,"Host:\x20Couldn't\x20find\x20underlyi
+SF:ng\x20service\n")%r(LDAPBindReq,6,"Host:\x20")%r(SIPOptions,27,"Host:\x
+SF:20Couldn't\x20find\x20underlying\x20service\n")%r(LANDesk-RC,6,"Host:\x
+SF:20")%r(TerminalServer,6,"Host:\x20")%r(NCP,6,"Host:\x20")%r(NotesRPC,6,
+SF:"Host:\x20")%r(JavaRMI,6,"Host:\x20")%r(WMSRequest,6,"Host:\x20")%r(ora
+SF:cle-tns,6,"Host:\x20")%r(ms-sql-s,6,"Host:\x20")%r(afp,6,"Host:\x20")%r
+SF:(giop,6,"Host:\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu May 16 17:46:25 2024 -- 1 IP address (1 host up) scanned in 117.33 seconds

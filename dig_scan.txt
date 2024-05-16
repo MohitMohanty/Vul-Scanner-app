@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.19.21-1-Debian <<>> 143.244.222.116
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37323
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;143.244.222.116.		IN	A
+
+;; AUTHORITY SECTION:
+.			86375	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2024051600 1800 900 604800 86400
+
+;; Query time: 4 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Thu May 16 17:46:26 IST 2024
+;; MSG SIZE  rcvd: 119
+
